@@ -1,0 +1,184 @@
+body {
+background-color: rgba(236, 226, 217, 0.889);
+}
+
+
+
+h3 {
+    font-family:'Roboto';
+  }
+  
+  div li{
+display: inline;
+text-align: justify;
+  }
+
+.highlight {
+  margin: 0;
+        padding: 0;
+        overflow: hidden;
+color: blueviolet;
+font-size: 90;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  display: inline-block;  padding: 10px 20px; border: 5px solid #611111; 
+  }
+
+
+#one {
+ 
+    color: rgb(143, 57, 7);
+    text-shadow: rgb(255, 255, 255) 4px 3px 0px;
+  
+    font-family: 'Pacifico', cursive;
+
+    } 
+
+
+    .myButton {
+      color: rgb(255, 230, 212); font-size: 13px; line-height: 13px; padding: 6px; border-radius: 11px; font-family: Georgia, serif;
+       font-weight: normal; font-variant: normal; text-transform: none;
+        background-image: linear-gradient(to right, rgb(143, 57, 7) 0%, rgb(135, 60, 3) 50%, rgb(69, 36, 2) 100%); 
+         border: 2px solid rgb(147, 89, 22);}
+      .myButton:hover {
+      background: #624d0fd2; }
+
+
+/*nav bar*/
+      nav ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(65, 29, 4);
+      }
+      
+       ol li {
+        float: left;
+      }
+      
+       li a {
+        display: block;
+        color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #633505;
+  color: white;
+}
+      /*---------------*/
+
+ .aboutu
+    {
+margin-top: 2%;
+    }
+    form {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #431704;
+      float: left;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgb(255, 255, 255);
+      max-width: 300px;
+      margin: 5%;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+
+    textarea {
+      padding: 10px; /*kobr l espace li chnkteb feha*/
+      border-radius: 5px;
+      margin-bottom: 1px;/*l espace bin kol espace ktiba*/
+      width: 100%;/*toul l espace mtaa l kriba*/
+      box-sizing: border-box;
+      font-size: 16px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    
+    button[type="submit"] {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+
+    h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Playfair Display";
+            }
+
+
+
+            footer {
+              background-color: #dab694;
+              padding: 10px;
+              position: relative;
+              margin-top: auto;
+              height: 60px;
+              bottom: 0;
+              width: 100%;
+            }
+            
+            .container {
+              display: flex;
+              align-items: center;
+            }
+            
+            .brand h3 {
+              margin: 0;
+            }
+            
+            .social-media {
+              margin-left: auto; 
+            }
+            
+            .social-media a {
+              color: #fff;
+              font-size: 20px;
+            }
+            
+            .social-media a:hover {
+              color: #f1c40f;
+            }
+            .kos{
+
+
+  
+              display: flex;
+             
+            }
+            
+            .text-grey {
+color: grey; font-family: 'Times New Roman', Times, serif;
+            }
+/*
+        .imag{
+float: right;
+opacity: 0.7;
+width:100%
+padding: 50px;
+    width: 520px;  
+   margin: 1%;
+
+        }*/
